@@ -316,6 +316,14 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 .hero-quote__cta--ghost { background: transparent; color: #f8fafc; border: 1px solid rgba(255,255,255,0.4); }
 .hero-quote__cta--ghost:hover { transform: translateY(-1px); background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.55); color: #f8fafc; text-decoration: none; }
 
+.hero-quote__badge {
+  display: inline-block;
+  transition: transform var(--dur) var(--ease);
+  line-height: 0;
+}
+.hero-quote__badge img { height: 54px; width: auto; }
+.hero-quote__badge:hover { transform: translateY(-1px); text-decoration: none; }
+
 .section { padding: clamp(2.25rem, 4vw, 3.5rem) clamp(1.25rem, 5vw, 3rem); }
 .section--tight { padding-block: clamp(1.5rem, 3vw, 2.25rem); }
 .section--tint { background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
