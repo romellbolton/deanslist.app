@@ -235,7 +235,30 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
     linear-gradient(180deg, #0a1f2e 0%, #061524 100%);
   color: #f8fafc;
 }
-.hero-quote__inner { max-width: 1100px; margin-inline: auto; position: relative; }
+.hero-quote__inner {
+  max-width: 1100px;
+  margin-inline: auto;
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: clamp(2rem, 5vw, 5rem);
+  align-items: center;
+}
+.hero-quote__visual { display: flex; justify-content: center; align-items: center; }
+.hero-quote__icon {
+  width: clamp(180px, 24vw, 280px);
+  height: clamp(180px, 24vw, 280px);
+  border-radius: 22.37%;
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.55),
+    0 8px 24px rgba(0, 0, 0, 0.4),
+    0 0 0 1px rgba(255, 255, 255, 0.08);
+}
+@media (max-width: 720px) {
+  .hero-quote__inner { grid-template-columns: 1fr; gap: 2rem; }
+  .hero-quote__visual { order: -1; }
+  .hero-quote__icon { width: 128px; height: 128px; }
+}
 .hero-quote__eyebrow {
   display: inline-block;
   font-family: var(--mono);
