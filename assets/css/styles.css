@@ -293,7 +293,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 .hero-quote__cta--ghost { background: transparent; color: #f8fafc; border: 1px solid rgba(255,255,255,0.4); }
 .hero-quote__cta--ghost:hover { transform: translateY(-1px); background: rgba(255,255,255,0.08); border-color: rgba(255,255,255,0.55); color: #f8fafc; text-decoration: none; }
 
-.section { padding: clamp(3rem, 6vw, 5rem) clamp(1.25rem, 5vw, 3rem); }
+.section { padding: clamp(2.25rem, 4vw, 3.5rem) clamp(1.25rem, 5vw, 3rem); }
 .section--tint { background: var(--surface-2); border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); }
 .section__inner { max-width: 1100px; margin-inline: auto; }
 .section__head {
@@ -301,7 +301,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
   align-items: baseline;
   justify-content: space-between;
   gap: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
   flex-wrap: wrap;
 }
 .section__eyebrow {
@@ -339,7 +339,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 
 .pro-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
 .pro-card {
-  padding: 1.75rem;
+  padding: 1.5rem;
   border-radius: var(--r-lg);
   background: var(--surface);
   border: 1px solid var(--border);
@@ -360,7 +360,7 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 .pro-cta { margin-top: 2rem; text-align: center; }
 
 .impact-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
-.impact-card { padding: 1.5rem; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); }
+.impact-card { padding: 1.25rem 1.35rem; border-radius: var(--r-lg); background: var(--surface); border: 1px solid var(--border); }
 .impact-card__value {
   display: block;
   font-size: clamp(1.35rem, 1.5vw + 0.75rem, 1.85rem);
@@ -389,8 +389,8 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
 @media (max-width: 560px) { .screen-strip__item { flex: 0 0 220px; } }
 
 .screen-strip__label {
-  margin-top: 2.75rem;
-  margin-bottom: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
   font-family: var(--mono);
   font-size: var(--fs-tiny);
   font-weight: 600;
