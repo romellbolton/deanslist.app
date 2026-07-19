@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#faf8f5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#0e0e10" media="(prefers-color-scheme: dark)" />
+
+  <title>Privacy — StatLine</title>
+  <meta name="description" content="StatLine's privacy policy. What we collect, what we don't, and how to reach us." />
+  <link rel="canonical" href="https://statline.app/privacy/" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to content</a>
+  <div class="page">
+    <header class="site-header">
+      <div class="site-header__inner">
+        <a href="/" class="site-header__brand">
+          <img src="/assets/img/statline-mark.png" alt="" />
+          <span>StatLine</span>
+        </a>
+        <nav class="site-header__nav" id="site-nav" aria-label="Primary">
+          <a href="/#features">Features</a>
+          <a href="/#pro">Pro</a>
+          <a href="/#coverage">Coverage</a>
+          <a href="/support/">Support</a>
+        </nav>
+        <button type="button" class="site-header__toggle" aria-controls="site-nav" aria-expanded="false">Menu</button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero-page">
+        <div class="hero-page__inner">
+          <p class="hero-page__eyebrow">Effective July 19, 2026</p>
+          <h1 class="hero-page__title">Privacy Policy</h1>
+          <p class="hero-page__lede">StatLine is built to be useful without knowing anything about you. This page describes exactly what the app collects, what it doesn't, and how to get in touch.</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="section__inner" style="max-width: 720px;">
+          <article class="prose">
+            <h2>What we collect</h2>
+            <p>Nothing personal. StatLine does not require an account, does not link data to your identity, and does not sell or share user data with third parties for advertising.</p>
+
+            <h2>Analytics</h2>
+            <p>Firebase Analytics and Crashlytics collect anonymous, aggregated usage data — screen views, feature adoption, and crash reports. No user identifiers, no advertising IDs, no linked identity. This helps me understand which features get used so I can focus development.</p>
+
+            <h2>Local storage</h2>
+            <p>Your favorite teams, recent searches, onboarding state, and Pro subscription status are stored on your device via Apple's <code>UserDefaults</code> (and a shared App Group container for widget access). This data never leaves your device.</p>
+
+            <h2>Third-party data sources</h2>
+            <p>Game data, player stats, standings, and odds are fetched from the <a href="https://balldontlie.io" target="_blank" rel="noopener">balldontlie</a> NCAAB API. StatLine sends only the queries needed to render the current screen. No personal information is transmitted with these requests.</p>
+
+            <h2>Subscriptions</h2>
+            <p>StatLine Pro is handled entirely by Apple's App Store via StoreKit 2. StatLine never sees your payment method, billing address, or Apple ID. The app only receives a signed entitlement confirming whether your subscription is active.</p>
+
+            <h2>Apple Intelligence (AI Game Recaps)</h2>
+            <p>StatLine Pro's AI Game Recaps are generated on-device using Apple's Foundation Models. Prompts and generated recaps stay on your device — nothing is sent to a cloud AI service, and no reading behavior is logged or transmitted.</p>
+
+            <h2>Data deletion</h2>
+            <p>Because StatLine holds no personal data, no deletion request is required. Uninstalling the app removes all local storage. Subscriptions can be managed under <strong>Settings → Apple ID → Subscriptions</strong> on your device.</p>
+
+            <h2>Changes to this policy</h2>
+            <p>If this policy changes materially, the "Effective" date at the top of this page updates and — for major changes — an in-app notice appears the next time you open StatLine.</p>
+
+            <h2>Contact</h2>
+            <p>Questions about privacy? Email <a href="mailto:hi@statline.app">hi@statline.app</a>.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="site-footer__inner">
+        <div>
+          <a href="/" class="site-footer__brand">
+            <img src="/assets/img/statline-mark.png" alt="" />
+            <span>StatLine</span>
+          </a>
+        </div>
+        <nav class="site-footer__links" aria-label="Footer">
+          <a href="/#features">Features</a>
+          <a href="/#pro">Pro</a>
+          <a href="/#coverage">Coverage</a>
+          <a href="/support/">Support</a>
+          <a href="/privacy/">Privacy</a>
+          <a href="mailto:hi@statline.app">hi@statline.app</a>
+          <a href="https://www.romellbolton.com" target="_blank" rel="noopener">Founder's site</a>
+        </nav>
+        <p class="site-footer__copy">
+          © <span id="year">2026</span> StatLine · Made by
+          <a href="https://www.romellbolton.com" target="_blank" rel="noopener">Romell Bolton</a>
+          in Chicago · Hand-built with HTML &amp; CSS.
+        </p>
+      </div>
+    </footer>
+  </div>
+  <script src="/assets/js/main.js" defer></script>
+</body>
+</html>

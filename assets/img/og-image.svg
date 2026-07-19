@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a1f2e"/>
+      <stop offset="1" stop-color="#061524"/>
+    </linearGradient>
+    <radialGradient id="glow-tr" cx="0.82" cy="0.06" r="0.55">
+      <stop offset="0" stop-color="#33B8E7" stop-opacity="0.32"/>
+      <stop offset="1" stop-color="#33B8E7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow-bl" cx="0.08" cy="0.92" r="0.55">
+      <stop offset="0" stop-color="#009CDE" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#009CDE" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="em" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#7dd3fc"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <clipPath id="icon-clip">
+      <rect x="850" y="175" width="260" height="260" rx="57" ry="57"/>
+    </clipPath>
+    <filter id="icon-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000" flood-opacity="0.55"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow-tr)"/>
+  <rect width="1200" height="630" fill="url(#glow-bl)"/>
+  <text x="80" y="130" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="20" font-weight="600" fill="#7dd3fc" letter-spacing="4">iOS · NCAA MEN'S COLLEGE BASKETBALL</text>
+  <text x="80" y="245" font-family="-apple-system, 'SF Pro Display', system-ui, sans-serif" font-size="88" font-weight="800" fill="#f8fafc" letter-spacing="-2">Every game, live.</text>
+  <text x="80" y="340" font-family="-apple-system, 'SF Pro Display', system-ui, sans-serif" font-size="88" font-weight="800" fill="url(#em)" letter-spacing="-2">Every D1 team.</text>
+  <text x="80" y="445" font-family="-apple-system, 'SF Pro Text', system-ui, sans-serif" font-size="26" fill="#cbd5e1">The complete NCAA Men's college basketball</text>
+  <text x="80" y="485" font-family="-apple-system, 'SF Pro Text', system-ui, sans-serif" font-size="26" fill="#cbd5e1">companion. Live scores, brackets, AP Top 25.</text>
+  <text x="80" y="575" font-family="ui-monospace, 'SF Mono', Menlo, monospace" font-size="22" font-weight="600" fill="#7dd3fc" letter-spacing="3">STATLINE.APP</text>
+  <g filter="url(#icon-shadow)">
+    <image href="../../icon-512.png" x="850" y="175" width="260" height="260" clip-path="url(#icon-clip)"/>
+  </g>
+  <text x="980" y="495" font-family="-apple-system, 'SF Pro Display', system-ui, sans-serif" font-size="34" font-weight="700" fill="#f8fafc" text-anchor="middle" letter-spacing="-1">StatLine</text>
+</svg>
