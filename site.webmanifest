@@ -1,6 +1,6 @@
 {
-  "name": "StatLine",
-  "short_name": "StatLine",
+  "name": "DeansList",
+  "short_name": "DeansList",
   "description": "The complete NCAA Men's college basketball companion for iPhone.",
   "start_url": "/",
   "display": "standalone",

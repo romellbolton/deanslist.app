@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://statline.app/sitemap.xml
+Sitemap: https://deanslist.app/sitemap.xml
