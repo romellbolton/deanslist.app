@@ -258,6 +258,13 @@ button { font: inherit; cursor: pointer; background: none; border: none; color: 
   .hero-quote__inner { grid-template-columns: 1fr; gap: 2rem; }
   .hero-quote__visual { order: -1; }
   .hero-quote__icon { width: 128px; height: 128px; }
+  /* Center hero content beneath the centered icon — matches Apple's
+     mobile marketing convention and avoids the icon-centered/text-left
+     visual imbalance. */
+  .hero-quote__text-col { text-align: center; }
+  .hero-quote__text,
+  .hero-quote__mission { margin-left: auto; margin-right: auto; }
+  .hero-quote__ctas { justify-content: center; }
 }
 .hero-quote__eyebrow {
   display: inline-block;
