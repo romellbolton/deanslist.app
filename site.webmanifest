@@ -1,6 +1,6 @@
 {
-  "name": "DeansList",
-  "short_name": "DeansList",
+  "name": "Dean's List",
+  "short_name": "Dean's List",
   "description": "The complete NCAA Men's college basketball companion for iPhone.",
   "start_url": "/",
   "display": "standalone",

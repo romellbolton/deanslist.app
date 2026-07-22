@@ -1,6 +1,6 @@
 # deanslist.app
 
-The public website for **DeansList** — a native iOS app for NCAA Men's college basketball.
+The public website for **Dean's List** — a native iOS app for NCAA Men's college basketball.
 
 Hand-built static HTML/CSS/JS. No build step. Deployed on Cloudflare Pages.
 
@@ -13,7 +13,7 @@ Hand-built static HTML/CSS/JS. No build step. Deployed on Cloudflare Pages.
 
 assets/css/        Design tokens + component styles (sibling of romellbolton.com + theboltonfoundation.org)
 assets/js/         Mobile-nav toggle + footer year stamp
-assets/img/        DeansList mark, OG card, screenshot exports
+assets/img/        Dean's List mark, OG card, screenshot exports
 ```
 
 ## Design language
@@ -35,8 +35,8 @@ Then open `http://localhost:8080`.
 
 ## Assets in place
 
-- Favicons + brand mark all derived from the actual iOS app icon (DeansList/DeansListWidgets/Assets.xcassets/AppIcon.appiconset/AppIcon.png)
-- 12 screenshots (6 iPhone + 6 iPad) from ~/Desktop/DeansList/
+- Favicons + brand mark all derived from the actual iOS app icon (Dean's List/Dean's ListWidgets/Assets.xcassets/AppIcon.appiconset/AppIcon.png)
+- 12 screenshots (6 iPhone + 6 iPad) from ~/Desktop/Dean's List/
 
 ## Deploying
 
